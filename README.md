@@ -1,1 +1,1 @@
-# Samakidishes is an online food delivery website. Built using HTML, CSS, Bootstrap and Jquery technologies
+# Samakidishes is an online food delivery website design. Built using HTML, CSS, Bootstrap and jQuery technologies.
