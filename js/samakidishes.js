@@ -1,5 +1,5 @@
 (function($) {
-  "use strict"; // Start of use strict
+  "use strict"; // Start strict
 
   // Close the sidebar menu
   $(".menu-toggle").click(function(e) {
@@ -9,7 +9,7 @@
     $(this).toggleClass("active");
   });
 
-  // Smooth scrolling using jQuery easing
+  // scrolling with jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -23,14 +23,14 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
+  // Close  menu when scroll trigger link is clicked
   $('#sidebar-wrapper .js-scroll-trigger').click(function() {
     $("#sidebar-wrapper").removeClass("active");
     $(".menu-toggle").removeClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
   });
 
-  // Scroll to top button appear
+  // Scroll to top button shows up
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
     if (scrollDistance > 100) {
@@ -40,7 +40,7 @@
     }
   });
 
-})(jQuery); // End of use strict//
+})(jQuery); // use strict end//
 
 // Disable scroll zooming and bind back the click event
 var onMapMouseleaveHandler = function(event) {
